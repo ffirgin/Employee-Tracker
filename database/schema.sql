@@ -13,7 +13,7 @@ CREATE TABLE role (
   id INT AUTO_INCREMENT PRIMARY KEY,
   title VARCHAR(50) NOT NULL,
   salary DECIMAL NOT NULL,
-  department_id INT NOT NULL,
+  department_id INT NOT NULL
 );
 
 CREATE TABLE employee (
@@ -21,5 +21,5 @@ CREATE TABLE employee (
   first_name VARCHAR(50) NOT NULL,
   last_name VARCHAR(50) NOT NULL,
   role_id INT NOT NULL,
-  manager_id INT NOT NULL,
+  manager_id INT NOT NULL
 );

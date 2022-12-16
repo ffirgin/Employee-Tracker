@@ -1,3 +1,4 @@
+--Schema used to create the database
 DROP DATABASE IF EXISTS employees_db;
 CREATE DATABASE employees_db;
 

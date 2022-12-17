@@ -1,6 +1,6 @@
 // Require the necessary modules
 const inquirer = require('inquirer');
-const db = require('./database');
+const db = require('./database/connect');
 require("console.table");
 
 // Prompt the user for what action they should take
@@ -73,4 +73,10 @@ function showMainPrompts() {
         quit();
     }
   });
+}
+
+function viewDepts(){
+  function findDepts(){
+    return db.connect.query("SELECT department_id FROM department");
+  }
 }

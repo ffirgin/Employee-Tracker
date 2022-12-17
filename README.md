@@ -1,5 +1,8 @@
 # Employee-Tracker
+## Links
+[Recording Link](https://app.castify.com/watch/30ae3e6c-681e-4a1d-8c28-c3a089b535de)
 
+[GitHub Repo](https://github.com/ffirgin/Employee-Tracker)
 ## Description
 
 The Employee Tracker 9000 makes all your tracking of employee, roles and department information a breeze! 8^) This CLI interface allows quick and easy access to view employees, roles and departments, as well as adding new departments, roles and employees.
